@@ -6,7 +6,7 @@
   (if (< n 0) (- n)
     n))
 
-(defn square [x] 
+(defn square [x]
   (* x x))
 
 (defn average [x y]
@@ -26,3 +26,5 @@
 (defn -main [& args]
   (println "hello world!")
   (println (str "Square root of 81 is: " (sqrt 81))))
+
+(str "Square root of 81 is: " (sqrt 81))
