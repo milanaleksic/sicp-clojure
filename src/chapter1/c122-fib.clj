@@ -1,4 +1,4 @@
-(ns chapter1.c122
+(ns chapter1.c122-fib
   (:require [clojure.java.io :as io])
   (:gen-class :main true))
 
